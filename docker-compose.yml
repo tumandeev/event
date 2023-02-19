@@ -53,7 +53,7 @@ services:
     volumes:
       - ./src:/var/www/html
     ports:
-      - "9230:92300"
+      - "9230:9230"
     networks:
       - event
 
